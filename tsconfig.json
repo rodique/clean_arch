@@ -1,0 +1,17 @@
+{
+    "include": [
+        "./src/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "jsx": "react",
+        "target": "ES5",
+        "experimentalDecorators": true
+    }
+}
